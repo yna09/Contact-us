@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+ul {
+    list-style: none;
+    background-color: blue;
+    text-align: center;
+}
+ul img {
+    width: 50px;
+      text-align: left;
+      margin-left: 10px;
+      float: left;
+      display: block;
+      text-decoration: none;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+ul li a:hover {
+    background: #222222;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://menotomymatters.com/assets/images/libraries.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.main-header {
+    width: 100%;
+    min-height: 85vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.3)50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.content {
+    width: 1200px;
+    margin: 120px auto;
+    text-align: justify;
+}
+.content span {
+    font-weight: 600px;
+    font-size: 60px;
+    color: blue;
+}
+.content h1 {
+    font-size: 80px;
+    color: red;
+}
+
+.content p {
+    width: 650px;
+    color: #fff;
+    font-size: 20px;
+}
